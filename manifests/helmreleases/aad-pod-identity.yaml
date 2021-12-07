@@ -13,7 +13,7 @@ spec:
         kind: HelmRepository
         name: aad-pod-identity
         namespace: flux-system
-  interval: 1h0m0s
+  interval: 30s
   install:
     remediation:
       retries: 3
